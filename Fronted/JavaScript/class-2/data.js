@@ -42,8 +42,8 @@ console.log(div);
 
 //string
 // let ch='pallabi';
-// let name
-// console.log(ch,na
+// let name="Pallabi"
+// console.log(ch,name)
 
 let name=" pallabi ";
 let ag =22;
