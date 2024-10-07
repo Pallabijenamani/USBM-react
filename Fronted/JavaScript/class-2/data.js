@@ -41,11 +41,11 @@ console.log(div);
 
 
 //string
-// let ch='Anjan';
-// let name="Ranjan";
-// console.log(ch,name)
+// let ch='pallabi';
+// let name
+// console.log(ch,na
 
-let name=" Anjan ";
+let name=" pallabi ";
 let ag =22;
 let stream="MCA";
 let roll=9;
