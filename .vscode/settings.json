@@ -5,10 +5,12 @@
     "finalamount",
     "finalprice",
     "foodprice",
+    "monthnumber",
     "originalprice",
     "productprice",
     "salestax",
     "salestaxrate",
+    "thusday",
     "totalbill",
     "totalprice"
   ]
