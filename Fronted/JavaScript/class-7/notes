@@ -1,0 +1,37 @@
+// //Function: it is a reusable block of code to perform some certain task.
+// // Declaration:
+//      function sayName() {
+//         //code here
+//      }
+
+//    //Arguments and parameters
+//     function printName(name){ //(name)parameters
+//         console.log(`my name is ${pallavi}`);
+//     }
+//     printName("pallavi"); //(pallavi) arguments
+
+//     //*Return keyword
+//     // stop the execution process.
+//     //return the value to the caller.
+
+//     //Arrow function 
+//fat arrow use for the avoiding hosting behevoiur and for dynamic value.
+//     //syntax: 
+//         // const printName=(name)=> { //=> knows as fat arrow
+//         //     return `my name is ${name}`;
+//         // }
+//         // console.log(printName("pallavi"));
+//         // reference error : means that not store in memory.
+//         //why use const: because we can not change function name that not necessary if we want thn we only change parameters or arguments.
+
+//callback function
+//when a function is called as an argument in an another function.
+// syntax:
+// function say (name,callback){
+//     console.log `(my name${name})`;
+//     return callback;
+// }
+
+//Asynchronous in js
+// >  setTimeout (()=>{});// callback
+// > setinterval (()=>{}); //anonymous
