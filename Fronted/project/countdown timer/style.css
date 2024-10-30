@@ -1,0 +1,91 @@
+
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  /* Body Styling */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #260f4c 0%, #a34126 100%);
+    color: #e7e702;
+  }
+
+  /* Timer Container */
+  .timer-container {
+    text-align: center;
+    background: #c1ce7f;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+  }
+
+  .timer-container:hover {
+    transform: scale(1.05);
+  }
+
+  h1 {
+    font-size: 28px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease;
+  }
+
+  /* Input Field */
+  #timeInput {
+    padding: 12px;
+    font-size: 18px;
+    width: 100%;
+    max-width: 250px;
+    border: 2px solid #dc7d62;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+  }
+
+  #timeInput:focus {
+    outline: none;
+    border-color: #f6d365;
+  }
+
+  /* Start Button */
+  button {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0f0e0e;
+    background: linear-gradient(135deg, #560c98, #23aa05);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+
+  button:hover {
+    background: linear-gradient(135deg, #e455bb, #f6d365);
+    transform: translateY(-3px);
+  }
+
+  /* Timer Display */
+  #timerDisplay {
+    font-size: 24px;
+    color: #e60a0a;
+    margin-top: 25px;
+    font-weight: 700;
+    animation: fadeIn 1.2s ease;
+  }
+
+  /* Keyframes for Fade-in Animation */
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }

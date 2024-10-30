@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #4a3e66;
+    color: #682222;
+    font-family: Arial, sans-serif;
+}
+
+.blink-text {
+    font-size: 3rem;
+    font-weight: bold;
+    animation: blink 1.5s ease-in-out infinite;
+    transition: color 0.3s;
+}
+
+@keyframes blink {
+    0% { opacity: 1; color: #FF6347; } /* Red */
+    50% { opacity: 0; color: #32CD32; } /* Green */
+    100% { opacity: 1; color: #FF6347; }
+}
