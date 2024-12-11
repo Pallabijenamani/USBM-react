@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinking Text Effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="blink-text" id="blinkText">Pallavi's Blink Effect</div>
+
+    <script>
+        // Change the text color dynamically using setInterval
+        const blinkText = document.getElementById("blinkText");
+        const colors = ["#FF6347", "#FFD700", "#32CD32", "#1E90FF", "#8A2BE2"];
+        let colorIndex = 0;
+
+        setInterval(() => {
+            blinkText.style.color = colors[colorIndex];
+            colorIndex = (colorIndex + 1) % colors.length;
+        }, 1000);
+    </script>
+</body>
+</html>
