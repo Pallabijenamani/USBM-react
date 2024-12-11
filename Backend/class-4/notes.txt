@@ -1,0 +1,10 @@
+// .gitgnore
+ node module( ignore file from github)
+
+ //.env = environmental file
+ ex: local,password, server ,url etc....
+
+ // to solve the re-start server problem
+    =nodemon => npm package
+    //install
+    =npm i nodemon

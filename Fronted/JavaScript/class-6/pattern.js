@@ -33,6 +33,7 @@ for (let i = 1; i <= 5; i++) { //representing total no of rows(outer loop)
   }
 
 
+ //Q8.
   console.log("FLOUDS'S TRIANGLE")
   let n = 5; // Number of rows
 let num = 1; // Starting number

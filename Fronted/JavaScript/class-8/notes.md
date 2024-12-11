@@ -13,3 +13,8 @@ Add element in array:
 
 Remove element in array :
 using pop() method: element will be remove in last.
+
+*include() :
+=it determines whether an array includes a certain value among its entities.
+*slice():
+=it is a instances returns a shallow copy of a portion of an array into a new array object selected from start to end(end not include.)

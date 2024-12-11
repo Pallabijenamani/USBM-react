@@ -17,6 +17,11 @@
  console.log(os.totalmem()); //8210415616
  console.log(os.freemem());  //1421406208
  console.log(os.userInfo().username); //HP
+
+ //console.log(Total memory   ${os.totalmem() / (1024*1024*1024) GB});
  
+
+
   
+
  
