@@ -1,0 +1,27 @@
+//WHAT IS EXPRESS.JS:
+
+It is a framework of node.js
+fast and minimalist
+it is used as web application and API.
+
+//WHY
+simplifies the HTTP request and response
+RESTful routing.
+middleware support.
+easy integration with database.
+
+//two types of database are there
+1- SQL
+2- noSQL
+
+//HOW:
+npm init -y = node server
+npm i express
+
+//MIDDLEWARES
+middleware in express.js refers to a function that has access to req, res and next.
+req middleware res -> req-res cycle(application) .
+
+Built-in = express.json
+third-party = CORS , morgan
+custom =eg: log middlewares etc

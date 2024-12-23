@@ -1,0 +1,9 @@
+neccessary package:
+
+npm init -y
+npm i express nodemon dotenv mongoose
+
+#query -> ?name= pallabi & age=22
+#params -> http:ndjn/hfh/123  ex= (:id(123))
+ctrl+mouseclick (go to the logic)
+
